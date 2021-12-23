@@ -19,8 +19,6 @@ class LocalDataStore: NSObject
             self.loadCurrentUser()
         }
         
-        
-        
     }
     
     func loadCurrentUser()
