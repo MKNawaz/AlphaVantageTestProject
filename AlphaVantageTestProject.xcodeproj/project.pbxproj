@@ -17,6 +17,27 @@
 		C328AB5427710C5900ABF465 /* AlphaVantageTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328AB5327710C5900ABF465 /* AlphaVantageTestProjectTests.swift */; };
 		C328AB5E27710C5900ABF465 /* AlphaVantageTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328AB5D27710C5900ABF465 /* AlphaVantageTestProjectUITests.swift */; };
 		C328AB6027710C5900ABF465 /* AlphaVantageTestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328AB5F27710C5900ABF465 /* AlphaVantageTestProjectUITestsLaunchTests.swift */; };
+		C328AB7027710CE700ABF465 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328AB6F27710CE700ABF465 /* Keys.swift */; };
+		C328AB76277241CD00ABF465 /* CSVParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328AB75277241CD00ABF465 /* CSVParser.swift */; };
+		C328ABA42773ACD700ABF465 /* AlphaVantageOnlineStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABA32773ACD700ABF465 /* AlphaVantageOnlineStore.swift */; };
+		C328ABA62773AD0400ABF465 /* LocalDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABA52773AD0400ABF465 /* LocalDataStore.swift */; };
+		C328ABAA2773AD4E00ABF465 /* AlphaVantageUrlProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABA92773AD4E00ABF465 /* AlphaVantageUrlProvider.swift */; };
+		C328ABAD2773B2B700ABF465 /* SymbolDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABAC2773B2B700ABF465 /* SymbolDataClass.swift */; };
+		C328ABAF2773B7C900ABF465 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABAE2773B7C900ABF465 /* AppDataStore.swift */; };
+		C328ABB12773BC3C00ABF465 /* SymbolReportingDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABB02773BC3C00ABF465 /* SymbolReportingDataClass.swift */; };
+		C328ABB72773C1B200ABF465 /* TabBarSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABB62773C1B200ABF465 /* TabBarSearchViewController.swift */; };
+		C328ABB92773C1CD00ABF465 /* TabBarSearchViewModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABB82773C1CD00ABF465 /* TabBarSearchViewModelClass.swift */; };
+		C328ABBC2773C4F400ABF465 /* TabBarSearchViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABBB2773C4F400ABF465 /* TabBarSearchViewControllerTableViewCell.swift */; };
+		C328ABC22773CEEA00ABF465 /* SymbolReportingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABC02773CEEA00ABF465 /* SymbolReportingViewController.swift */; };
+		C328ABC32773CEEA00ABF465 /* SymbolReportingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C328ABC12773CEEA00ABF465 /* SymbolReportingViewController.xib */; };
+		C328ABC72773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABC52773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.swift */; };
+		C328ABC82773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C328ABC62773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.xib */; };
+		C328ABCA2773D56F00ABF465 /* SymbolReportingViewModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABC92773D56F00ABF465 /* SymbolReportingViewModelClass.swift */; };
+		C328ABCD2774004C00ABF465 /* TabBarUserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABCC2774004C00ABF465 /* TabBarUserLoginViewController.swift */; };
+		C328ABD32774149200ABF465 /* Symbol+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABCF2774149200ABF465 /* Symbol+CoreDataClass.swift */; };
+		C328ABD42774149200ABF465 /* Symbol+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABD02774149200ABF465 /* Symbol+CoreDataProperties.swift */; };
+		C328ABD52774149200ABF465 /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABD12774149200ABF465 /* Users+CoreDataClass.swift */; };
+		C328ABD62774149200ABF465 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328ABD22774149200ABF465 /* Users+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,27 @@
 		C328AB5927710C5900ABF465 /* AlphaVantageTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaVantageTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C328AB5D27710C5900ABF465 /* AlphaVantageTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaVantageTestProjectUITests.swift; sourceTree = "<group>"; };
 		C328AB5F27710C5900ABF465 /* AlphaVantageTestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaVantageTestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C328AB6F27710CE700ABF465 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		C328AB75277241CD00ABF465 /* CSVParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVParser.swift; sourceTree = "<group>"; };
+		C328ABA32773ACD700ABF465 /* AlphaVantageOnlineStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaVantageOnlineStore.swift; sourceTree = "<group>"; };
+		C328ABA52773AD0400ABF465 /* LocalDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataStore.swift; sourceTree = "<group>"; };
+		C328ABA92773AD4E00ABF465 /* AlphaVantageUrlProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaVantageUrlProvider.swift; sourceTree = "<group>"; };
+		C328ABAC2773B2B700ABF465 /* SymbolDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDataClass.swift; sourceTree = "<group>"; };
+		C328ABAE2773B7C900ABF465 /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		C328ABB02773BC3C00ABF465 /* SymbolReportingDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolReportingDataClass.swift; sourceTree = "<group>"; };
+		C328ABB62773C1B200ABF465 /* TabBarSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSearchViewController.swift; sourceTree = "<group>"; };
+		C328ABB82773C1CD00ABF465 /* TabBarSearchViewModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSearchViewModelClass.swift; sourceTree = "<group>"; };
+		C328ABBB2773C4F400ABF465 /* TabBarSearchViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSearchViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		C328ABC02773CEEA00ABF465 /* SymbolReportingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolReportingViewController.swift; sourceTree = "<group>"; };
+		C328ABC12773CEEA00ABF465 /* SymbolReportingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SymbolReportingViewController.xib; sourceTree = "<group>"; };
+		C328ABC52773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolReportingViewControllerTableviewCell.swift; sourceTree = "<group>"; };
+		C328ABC62773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SymbolReportingViewControllerTableviewCell.xib; sourceTree = "<group>"; };
+		C328ABC92773D56F00ABF465 /* SymbolReportingViewModelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolReportingViewModelClass.swift; sourceTree = "<group>"; };
+		C328ABCC2774004C00ABF465 /* TabBarUserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarUserLoginViewController.swift; sourceTree = "<group>"; };
+		C328ABCF2774149200ABF465 /* Symbol+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Symbol+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C328ABD02774149200ABF465 /* Symbol+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Symbol+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C328ABD12774149200ABF465 /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C328ABD22774149200ABF465 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +143,10 @@
 		C328AB3827710C5700ABF465 /* AlphaVantageTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				C328AB7127718A6A00ABF465 /* DataStore */,
+				C328AB6E27710CC500ABF465 /* Constants */,
+				C328AB6D27710C7000ABF465 /* SupportingClasses */,
+				C328AB6C27710C5F00ABF465 /* ViewControllers */,
 				C328AB3927710C5700ABF465 /* AppDelegate.swift */,
 				C328AB3B27710C5700ABF465 /* SceneDelegate.swift */,
 				C328AB3D27710C5700ABF465 /* ViewController.swift */,
@@ -128,6 +174,175 @@
 				C328AB5F27710C5900ABF465 /* AlphaVantageTestProjectUITestsLaunchTests.swift */,
 			);
 			path = AlphaVantageTestProjectUITests;
+			sourceTree = "<group>";
+		};
+		C328AB6C27710C5F00ABF465 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABBD2773CEA900ABF465 /* SymbolReportingScreen */,
+				C328ABB22773C14000ABF465 /* LandingTabBarScreen */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C328AB6D27710C7000ABF465 /* SupportingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C328AB74277241B400ABF465 /* CSVParser */,
+			);
+			path = SupportingClasses;
+			sourceTree = "<group>";
+		};
+		C328AB6E27710CC500ABF465 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C328AB6F27710CE700ABF465 /* Keys.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C328AB7127718A6A00ABF465 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABAB2773B24000ABF465 /* DataMappingClasses */,
+				C328ABA82773AD2300ABF465 /* LocalDataStore */,
+				C328ABA72773AD1600ABF465 /* OnlineDataStore */,
+				C328ABAE2773B7C900ABF465 /* AppDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		C328AB74277241B400ABF465 /* CSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				C328AB75277241CD00ABF465 /* CSVParser.swift */,
+			);
+			path = CSVParser;
+			sourceTree = "<group>";
+		};
+		C328ABA72773AD1600ABF465 /* OnlineDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABA92773AD4E00ABF465 /* AlphaVantageUrlProvider.swift */,
+				C328ABA32773ACD700ABF465 /* AlphaVantageOnlineStore.swift */,
+			);
+			path = OnlineDataStore;
+			sourceTree = "<group>";
+		};
+		C328ABA82773AD2300ABF465 /* LocalDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABCE2774143700ABF465 /* CoreDataClasses */,
+				C328ABA52773AD0400ABF465 /* LocalDataStore.swift */,
+			);
+			path = LocalDataStore;
+			sourceTree = "<group>";
+		};
+		C328ABAB2773B24000ABF465 /* DataMappingClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABAC2773B2B700ABF465 /* SymbolDataClass.swift */,
+				C328ABB02773BC3C00ABF465 /* SymbolReportingDataClass.swift */,
+			);
+			path = DataMappingClasses;
+			sourceTree = "<group>";
+		};
+		C328ABB22773C14000ABF465 /* LandingTabBarScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABCB2774002400ABF465 /* TabBarUserLoginScreen */,
+				C328ABB32773C16400ABF465 /* TabBarSearchScreen */,
+			);
+			path = LandingTabBarScreen;
+			sourceTree = "<group>";
+		};
+		C328ABB32773C16400ABF465 /* TabBarSearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABB52773C18000ABF465 /* TabBarSearchViewModelClass */,
+				C328ABB42773C17700ABF465 /* TabBarSearchViewController */,
+			);
+			path = TabBarSearchScreen;
+			sourceTree = "<group>";
+		};
+		C328ABB42773C17700ABF465 /* TabBarSearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABBA2773C4C700ABF465 /* TabBarSearchViewControllerTableViewCell */,
+				C328ABB62773C1B200ABF465 /* TabBarSearchViewController.swift */,
+			);
+			path = TabBarSearchViewController;
+			sourceTree = "<group>";
+		};
+		C328ABB52773C18000ABF465 /* TabBarSearchViewModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABB82773C1CD00ABF465 /* TabBarSearchViewModelClass.swift */,
+			);
+			path = TabBarSearchViewModelClass;
+			sourceTree = "<group>";
+		};
+		C328ABBA2773C4C700ABF465 /* TabBarSearchViewControllerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABBB2773C4F400ABF465 /* TabBarSearchViewControllerTableViewCell.swift */,
+			);
+			path = TabBarSearchViewControllerTableViewCell;
+			sourceTree = "<group>";
+		};
+		C328ABBD2773CEA900ABF465 /* SymbolReportingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABBF2773CECE00ABF465 /* SymbolReportingViewModelClass */,
+				C328ABBE2773CEBE00ABF465 /* SymbolReportingViewController */,
+			);
+			path = SymbolReportingScreen;
+			sourceTree = "<group>";
+		};
+		C328ABBE2773CEBE00ABF465 /* SymbolReportingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABC42773CF0500ABF465 /* SymbolReportingViewControllerTableviewCell */,
+				C328ABC02773CEEA00ABF465 /* SymbolReportingViewController.swift */,
+				C328ABC12773CEEA00ABF465 /* SymbolReportingViewController.xib */,
+			);
+			path = SymbolReportingViewController;
+			sourceTree = "<group>";
+		};
+		C328ABBF2773CECE00ABF465 /* SymbolReportingViewModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABC92773D56F00ABF465 /* SymbolReportingViewModelClass.swift */,
+			);
+			path = SymbolReportingViewModelClass;
+			sourceTree = "<group>";
+		};
+		C328ABC42773CF0500ABF465 /* SymbolReportingViewControllerTableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABC52773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.swift */,
+				C328ABC62773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.xib */,
+			);
+			path = SymbolReportingViewControllerTableviewCell;
+			sourceTree = "<group>";
+		};
+		C328ABCB2774002400ABF465 /* TabBarUserLoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABCC2774004C00ABF465 /* TabBarUserLoginViewController.swift */,
+			);
+			path = TabBarUserLoginScreen;
+			sourceTree = "<group>";
+		};
+		C328ABCE2774143700ABF465 /* CoreDataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C328ABCF2774149200ABF465 /* Symbol+CoreDataClass.swift */,
+				C328ABD02774149200ABF465 /* Symbol+CoreDataProperties.swift */,
+				C328ABD12774149200ABF465 /* Users+CoreDataClass.swift */,
+				C328ABD22774149200ABF465 /* Users+CoreDataProperties.swift */,
+			);
+			path = CoreDataClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +449,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C328ABC82773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.xib in Resources */,
 				C328AB4927710C5800ABF465 /* LaunchScreen.storyboard in Resources */,
 				C328AB4627710C5800ABF465 /* Assets.xcassets in Resources */,
 				C328AB4127710C5700ABF465 /* Main.storyboard in Resources */,
+				C328ABC32773CEEA00ABF465 /* SymbolReportingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +478,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C328ABC22773CEEA00ABF465 /* SymbolReportingViewController.swift in Sources */,
+				C328ABB72773C1B200ABF465 /* TabBarSearchViewController.swift in Sources */,
+				C328ABA62773AD0400ABF465 /* LocalDataStore.swift in Sources */,
+				C328ABD42774149200ABF465 /* Symbol+CoreDataProperties.swift in Sources */,
+				C328ABC72773CF2100ABF465 /* SymbolReportingViewControllerTableviewCell.swift in Sources */,
 				C328AB3E27710C5700ABF465 /* ViewController.swift in Sources */,
+				C328ABD32774149200ABF465 /* Symbol+CoreDataClass.swift in Sources */,
 				C328AB3A27710C5700ABF465 /* AppDelegate.swift in Sources */,
+				C328ABB12773BC3C00ABF465 /* SymbolReportingDataClass.swift in Sources */,
 				C328AB3C27710C5700ABF465 /* SceneDelegate.swift in Sources */,
+				C328ABAF2773B7C900ABF465 /* AppDataStore.swift in Sources */,
 				C328AB4427710C5700ABF465 /* AlphaVantageTestProject.xcdatamodeld in Sources */,
+				C328ABAA2773AD4E00ABF465 /* AlphaVantageUrlProvider.swift in Sources */,
+				C328AB76277241CD00ABF465 /* CSVParser.swift in Sources */,
+				C328ABCD2774004C00ABF465 /* TabBarUserLoginViewController.swift in Sources */,
+				C328ABAD2773B2B700ABF465 /* SymbolDataClass.swift in Sources */,
+				C328ABBC2773C4F400ABF465 /* TabBarSearchViewControllerTableViewCell.swift in Sources */,
+				C328ABB92773C1CD00ABF465 /* TabBarSearchViewModelClass.swift in Sources */,
+				C328ABD52774149200ABF465 /* Users+CoreDataClass.swift in Sources */,
+				C328ABA42773ACD700ABF465 /* AlphaVantageOnlineStore.swift in Sources */,
+				C328AB7027710CE700ABF465 /* Keys.swift in Sources */,
+				C328ABD62774149200ABF465 /* Users+CoreDataProperties.swift in Sources */,
+				C328ABCA2773D56F00ABF465 /* SymbolReportingViewModelClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
